@@ -1,0 +1,161 @@
+
+/* Global selector*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body selector*/
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: skyblue;
+  }
+
+
+  /* Navbar selector*/
+  .navbar {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+       
+  }
+  /* Navabar logo selector*/
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  /* Nav bar links selector*/
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  
+
+  /* Navbar li a selector*/
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+
+  /* nav link hovers selector*/
+  .nav-links li a:hover {
+    color: #00bcd4;
+  }
+  
+
+  /* cursor selector*/
+  .hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+
+  /* Responsive selector*/
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      width: 150px;
+      border-radius: 5px;
+      padding: 10px 0;
+    }
+  
+
+    /* Nav link li selector*/
+    .nav-links li {
+      text-align: center;
+      padding: 50px 20px;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  }
+
+
+  .hero {
+    background: sandybrown;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+
+
+  /* image sliders section selector*/
+  .slider {
+    position: relative;
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  .slides img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  .slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .slider-buttons button {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+
+  /* footer selector*/
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+
+  section {
+    padding: 20px;
+  }
+
+  #form{
+    margin-left: 100px;
+}
+
+
+

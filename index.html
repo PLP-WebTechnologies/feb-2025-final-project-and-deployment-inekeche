@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Website Project</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+
+<!--navbar section-->
+<body>
+     <nav class="navbar">
+        <div class="logo">PRESIDOO!</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger"></div>
+      </nav>
+    
+      <!--Welcome page section-->
+
+      <section id="home" class="hero">
+        <h2>Welcome to my project home Page</h2>
+        <p>This is a simple, responsive website with multiple pages.</p>
+      </section>
+      <br>
+    
+        <!--image slider section-->
+
+      <div class="slider">
+        <div class="slides">
+          <img src="lab.jpg" width="200" height="400"alt="Slide 1">
+          <img src="felix.jpg" width="200" height="400" alt="Slide 2">
+          <img src="lab.jpg"  width="200" height="400" alt="Slide 3">
+        </div>
+        <div class="slider-buttons">
+          <button id="prevBtn">&#10094;</button>
+          <button id="nextBtn">&#10095;</button>
+        </div>
+      </div>
+
+
+<br><br>
+
+<!--Validation form section-->
+
+    <form id="form" onsubmit="validateForm(event)">
+        <h2>Get in Touch</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Type your full name" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address" required><br><br>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+      
+        <button type="submit">Send Message</button>
+      </form>
+
+
+      
+      <!--JavaScript external file section-->
+  <script src="script.js"></script>
+
+
+  <!--Footer section-->
+    <footer>
+      <p>&copy; 2025 My PLP Project  @Felix Ineke </p>
+    </footer>
+  </body>
+  </html>
+  
