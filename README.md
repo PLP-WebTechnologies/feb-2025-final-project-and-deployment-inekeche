@@ -26,7 +26,7 @@ Good luck and happy coding! 🚀💻
 
 
 
-
+THIS IS THE BROJECT URL
 
 https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-inekeche/
 
